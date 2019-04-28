@@ -1,0 +1,94 @@
+/* Adding Fonts */
+@font-face {
+  font-family: "ObjectiveMK1-Xbd";
+  src: url("/fonts/ObjektivMk1WXBd.ttf") format("truetype"),
+    url("/fonts/ObjektivMk1WXBd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ObjectiveMK1-Rg";
+  src: url("/fonts/ObjektivMk1WRg.ttf") format("truetype"),
+    url("/fonts/ObjektivMk1WRg.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ObjectiveMK1-Md";
+  src: url("/fonts/ObjektivMk1WMd.ttf") format("truetype"),
+    url("/fonts/ObjektivMk1WMd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ObjectiveMK2-Md";
+  src: url("/fonts/ObjektivMk2WMd.ttf") format("truetype"),
+    url("/fonts/ObjektivMk2WMd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ObjectiveMK1-Th";
+  src: url("/fonts/ObjektivMk2WTh.ttf") format("truetype"),
+    url("/fonts/ObjektivMk2WTh.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ObjectiveMK2-Th";
+  src: url("/fonts/ObjektivMk2WTh.ttf") format("truetype"),
+    url("/fonts/ObjektivMk2WTh.woff") format("woff");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  font-family: "ObjectiveMK1-Md";
+}
+
+.navbar-default {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  height: 100px;
+}
+
+.badge {
+  width: 100%;
+  font-size: 26pt;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.media-body a {
+  word-break: break-all;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .badge {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1%;
+  }
+  .one-line {
+    height: 50vh;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
